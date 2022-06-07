@@ -1,0 +1,36 @@
+.div-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 170px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 100%;
+}
+
+.header {
+    height: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5e1ec;
+}
+
+.line {
+    height: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E9E4F0;
+}
+
+.td-line {
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
+}
